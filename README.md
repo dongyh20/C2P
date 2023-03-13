@@ -2,13 +2,15 @@
 
 This repository contains the PyTorch implementation of our paper:
 
-[Complete-to-Partial 4D Distillation for Self-Supervised Point Cloud Sequence Representation Learning](https://arxiv.org/pdf/2212.05330.pdf), *Zhuoyang Zhang\*, Yuhao Dong\*, Yunze Liu, Li Yi*, CVPR2023.
+[Complete-to-Partial 4D Distillation for Self-Supervised Point Cloud Sequence Representation Learning](https://arxiv.org/pdf/2212.05330.pdf), 
+
+*Zhuoyang Zhang\*, Yuhao Dong\*, Yunze Liu, Li Yi*, CVPR2023.
 
 ### Introduction
 
 Recent work on 4D point cloud sequences has attracted a lot of attention. However, obtaining exhaustively labeled 4D datasets is often very expensive and laborious, so it is especially important to investigate how to utilize raw unlabeled data. However, most existing self-supervised point cloud representation learning methods only consider geometry from a static snapshot omitting the fact that sequential observations of dynamic scenes could reveal more comprehensive geometric details. And the video representation learning frameworks mostly model motion as image space flows, let alone being 3D-geometric-aware. To overcome such issues, this paper proposes a new 4D self-supervised pre-training method called Complete-to-Partial 4D Distillation. Our key idea is to formulate 4D self-supervised representation learning as a teacher-student knowledge distillation framework and let the student learn useful 4D representations with the guidance of the teacher. Experiments show that this approach significantly outperforms previous pre-training approaches on a wide range of 4D point cloud sequence understanding tasks including indoor and outdoor scenarios.
 
-![pipeline](./pipeline.png)
+![k](./pipeline.png)
 
 ### Links
 
@@ -30,7 +32,9 @@ python setup.py install
 
 ### Data
 
-To get the raw data of HOI4D, please refer to this [page](https://hoi4d.github.io/). To get the specific data for Action Segmentation and Semantic Segmentation tasks, please refer to this [page](http://www.hoi4d.top/#downLoad) .
+To get the raw data of HOI4D, please refer to this [page](https://hoi4d.github.io/).
+
+To get the specific data for Action Segmentation and Semantic Segmentation tasks, please refer to this [page](http://www.hoi4d.top/#downLoad) .
 
 For pretrain data for Action Segmentation task on HOI4D dataset, download from [here](https://drive.google.com/drive/folders/1ITMKsmDr9QU9-_1ohDbwrGU8ZxNHHWWy?usp=sharing).
 
