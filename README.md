@@ -14,7 +14,7 @@ Recent work on 4D point cloud sequences has attracted a lot of attention. Howeve
 
 ### Links
 
-- [Project Page (Still ongoing) ](https://github.com/dongyh20/c2p.github.io)
+- [Project Page (Still ongoing) ]((https://dongyh20.github.io/c2p.github.io/))
 
 - [arXiv Page](https://arxiv.org/abs/2212.05330)
 
@@ -25,7 +25,7 @@ The main experiments are implemented on PyTorch 1.9.0, Python 3.6.13, CUDA 11.6.
 Compile the CUDA layers for [PointNet++](http://arxiv.org/abs/1706.02413), which we used for furthest point sampling (FPS) and radius neighbouring search:
 
 ```
-mv modules-pytorch-1.4.0/modules-pytorch-1.8.1 modules
+mv modules-pytorch-1.8.1 modules
 cd modules
 python setup.py install
 ```
@@ -38,10 +38,11 @@ To get the specific data for Action Segmentation and Semantic Segmentation tasks
 
 For pretrain data for Action Segmentation task on HOI4D dataset, download from [here](https://drive.google.com/drive/folders/1ITMKsmDr9QU9-_1ohDbwrGU8ZxNHHWWy?usp=sharing).
 
-To generate pretrain data for other tasks, please use this command:
+To generate pretrain data for other tasks (MSRAction3D) , please use this command:
 
 ```
-
+cd partial-view generation
+python generation_msr.py
 ```
 
 ### Citation
