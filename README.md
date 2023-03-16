@@ -14,7 +14,7 @@ Recent work on 4D point cloud sequences has attracted a lot of attention. Howeve
 
 ### Links
 
-- [Project Page (Still ongoing) ]((https://dongyh20.github.io/c2p.github.io/))
+- [Project Page (Still ongoing)](https://dongyh20.github.io/c2p.github.io/)
 
 - [arXiv Page](https://arxiv.org/abs/2212.05330)
 
