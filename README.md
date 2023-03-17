@@ -69,3 +69,4 @@ If you find our work useful in your research, please consider citing:
 ### Acknowledgement
 
 We thank the authors of [P4transformer](https://github.com/hehefan/P4Transformer) and [PPTr](https://github.com/hoi4d/PPTr) for their interesting work.
+In particular, we would like to thank [Hehe Fan](https://hehefan.github.io/) for his selfless help with our project.
